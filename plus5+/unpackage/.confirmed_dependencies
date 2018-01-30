@@ -1,0 +1,92 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/gallery.html",
+			"plus/file.html",
+			"plus/webview.html",
+			"plus/runtime.html"
+		]
+	},
+	"plus/gallery.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		]
+	},
+	"plus/file.html": {
+		"resources": [
+			"img/fdisk.png",
+			"img/fup.png",
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		]
+	},
+	"plus/webview.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/webview_animation.html",
+			"plus/webview_embed.html",
+			"plus/webview_float.html",
+			"plus/doc.html",
+			"index.html",
+			"plus/webview_mask.html",
+			"plus/webview_pullhead_custom.html",
+			"plus/webview_pulltorefresh.html"
+		]
+	},
+	"plus/webview_new.html": {
+		"resources": [
+			"img/ui.png"
+		]
+	},
+	"plus/webview_animation.html": {
+		"refer": [
+			"plus/webview_new.html"
+		]
+	},
+	"doc/webview.html": {
+		"resources": [
+			"doc/res/doc.css",
+			"doc/res/prettify.js",
+			"doc/res/prettify.sons.css",
+			"doc/res/doc.js"
+		]
+	},
+	"plus/doc.html": {
+		"refer": [
+			"doc/webview.html"
+		]
+	},
+	"plus/webview_mask.html": {
+		"refer": [
+			"plus/webview_mask_side.html"
+		]
+	},
+	"plus/webview_pullhead_custom.html": {
+		"resources": [
+			"img/pull_arrow.png",
+			"plus/webview_pullrefresh_custom.html",
+			"img/pull_fresh.png"
+		],
+		"refer": [
+			"plus/webview_pullrefresh_custom.html"
+		]
+	},
+	"plus/webview_float.html": {
+		"resources": [
+			"img/ui.png"
+		]
+	}
+}
